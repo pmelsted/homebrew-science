@@ -11,7 +11,7 @@ class Kallisto < Formula
     sha256 "b8d02c19f47e73e56fcc976e957bcc22d008dae7f603652e329298d68c409074" => :mavericks
   end
 
-  needs :cxx11
+  ENV.libcxx if MacOS.version < :mavericks && ENV.compiler == :clang  
   depends_on "cmake" => :build
   depends_on "hdf5"
 
