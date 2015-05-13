@@ -1,8 +1,8 @@
 class Kallisto < Formula
   homepage "https://pachterlab.github.io/kallisto/"
   # tag "bioinformatics"
-  url "https://github.com/pachterlab/kallisto/archive/v0.42.tar.gz"
-  sha256 "860285d293f86113a442ff4c0f7b039123fe22644796b8aae0e5741283dfbd49"
+  url "https://github.com/pachterlab/kallisto/archive/v0.42.1.tar.gz"
+  sha256 "e620623fe36ee183cf7e1245aba8e0b7490f530c2b68c81d6e8f0c21e2c97381"
 
   bottle do
     root_url "https://homebrew.bintray.com/bottles-science"
