@@ -17,7 +17,7 @@ class Kallisto < Formula
   depends_on "hdf5"
 
   def install
-    ENV.libcxx if MacOS.version < :mavericks && ENV.compiler == :clang
+    ENV.cxx11
     system "cmake", ".", *std_cmake_args
     system "make", "install"
     doc.install "README.md"
