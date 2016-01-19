@@ -15,6 +15,7 @@ class Kallisto < Formula
   needs :cxx11
   depends_on "cmake" => :build
   depends_on "hdf5"
+  revision 1
 
   def install
     ENV.cxx11
